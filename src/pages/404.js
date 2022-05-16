@@ -5,8 +5,11 @@ import { Layout } from "../components/layout/Layout"
 const NotFoundPage = () => {
   return (
     <Layout>
-      <h1>Page Not Found</h1>
-      <p>Sorry</p>
+      <div className="text-center w-fit mx-auto p-2 rounded-lg bg-bg/50 text-txt">
+        <h1 className="text-3xl">Page Not Found</h1>
+        <p className="text-xl">Sorry :-(</p>
+      </div>
+
     </Layout>
   )
 }
