@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Layout } from "../components/layout/Layout"
+import ProfileImg from "../images/profile.jpg"
 
 // markup
 const IndexPage = () => {
@@ -10,7 +11,7 @@ const IndexPage = () => {
         <p>洪</p>
         <p>儀</p>
         <p>娟</p>
-        <img src="src\images\profile.jpg" alt="self-portrait" />
+        <img src={ProfileImg} alt="self-portrait" />
       </div>
       <p className="text-xl text-center underline px-6 py-2">This is your website!</p>
     </Layout>
